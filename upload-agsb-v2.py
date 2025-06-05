@@ -31,9 +31,9 @@ DEBUG_LOG = INSTALL_DIR / "python_debug.log"
 CUSTOM_DOMAIN_FILE = INSTALL_DIR / "custom_domain.txt" # 存储最终使用的域名
 
 # ====== 全局可配置参数（可直接在此处修改） ======
-USER_NAME = "Streamlit-Winlot"         # 用户名
+USER_NAME = "winlot"         # 用户名
 UUID = "11df2a32-5c85-4c01-8445-e81d5871bb55"                     # UUID，留空则自动生成
-PORT = 2168                   # Vmess端口，留空或0则自动生成
+PORT = 62186                   # Vmess端口，留空或0则自动生成
 DOMAIN = "streamlit.winlot.me"                   # 域名，留空则自动获取
 CF_TOKEN = "eyJhIjoiYTE4ZWM4ZTIzMmU0ZmRiOTk5NmNkZWJlNjE2ZmNiZjQiLCJ0IjoiMjUzN2YxMjEtNTlkZC00N2YxLWIzZDgtZWQ0MGI2ZjFkNjQzIiwicyI6IlptUTVOVE5tTVRJdFpUY3pZeTAwT0RobExUaG1Nak10T0dNNE1UTmhObU5qTm1VeSJ9"                 # Cloudflare Token，留空则用Quick Tunnel
 # =========================================
